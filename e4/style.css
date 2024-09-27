@@ -1,0 +1,18 @@
+#text{
+    font-family: monospace;
+    color: #8d522a;
+}
+
+label{
+    font-size: 2em;
+}
+
+.opts{
+    display: flex;
+    flex-direction: row;
+}
+
+.acomps{
+    display: flex;
+    flex-direction: column;
+}
