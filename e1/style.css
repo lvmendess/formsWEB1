@@ -1,0 +1,83 @@
+.content{
+    min-width: 25em;
+    max-width: 30em;
+    min-height: 20em;
+    max-height: 25em;
+    border-right: solid 2.1em #A0C655;
+    padding: 1.5em 1em 1.5em 1.5em;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    font-size: 1em;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f3f3f;
+    margin-right: 0.5em;
+    font-size: 0.9em;
+}
+
+form{
+    /*padding-top: 1em;*/
+    padding-left: 0.5em;
+}
+
+.field{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#password{
+    margin-bottom: 2em;
+    margin-left: 6.5em;
+}
+
+#textfield{
+    border-radius: 0.5em;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    height: 3em;
+    box-shadow: inset 0 0 4px #b9b9b9;
+    
+}
+
+#textfield:focus{
+    outline-color: #1E8AFF !important;
+    outline-offset: 0.1em;
+    outline-style: initial;
+    border-color: #1E8AFF;
+    box-shadow: 0 0 5px #1E8AFF;
+}
+
+.bttn{
+    max-width: 10.8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#enviar{
+    border-radius: 0.5em;
+    border: none;
+    height: 2.5em;
+    width: 6em;
+    background-image: linear-gradient(135deg, #6715CD 0%, #4E39DE 45%, #296FF9 100%);
+    font-weight:600;
+    color: white;
+}
+
+#limpar{
+    border-radius: 0.5em;
+    border: none;
+    height: 2.5em;
+    width: 6em;
+    background-image: linear-gradient(135deg, #6C6C6C 0%, #616161 45%, #4E4E4E 100%);
+    font-weight:600;
+    color: white;
+}
