@@ -6,48 +6,73 @@
     </head>
 
     <body>
-        <h1 id="text">Cafeteria autoCuidado</h1>
-        <form>
-            <div class="bebida">
-                <label id="text" for="bebida">Escolha sua bebida:</label>
-                <div class="opts">
-                    <div class="opt">
-                        <img>
-                        <input id="text" type="checkbox" name="bebida" value="cafe puro">Café puro
-                    </div>
-                    <div class="opt">
-                        <img>
-                        <input id="text" type="checkbox" name="bebida" value="cafe c leite">Café com leite
-                    </div>
-                    <div class="opt">
-                        <img>
-                        <input id="text" type="checkbox" name="bebida" value="chocolate">Chocolate
-                    </div>
-                </div>
+        <main>
+            <div class="content">
+                    <h1 id="text">Cafeteria autoCuidado</h1>
+                    <form>
+                        <div class="bebida">
+                            <label id="text" for="bebida">Escolha sua bebida:</label>
+                            <div class="opts">
+                                <div class="opt">
+                                    <img src="resources\coffee-pack.png">
+                                    <label id="type" for="bebida">cafe puro</label>
+                                    <input id="1" type="checkbox" name="bebida" value="cafe puro" onclick="selectOnlyThis(this.id), coffee(this.id)"/>
+                                </div>
+                                <div class="opt">
+                                    <img src="resources\latte-art.png">
+                                    <label id="type" for="bebida">cafe c/ leite</label>
+                                    <input id="2" type="checkbox" name="bebida" value="cafe c leite" onclick="selectOnlyThis(this.id), coffee(this.id)"/>
+                                </div>
+                                <div class="opt">
+                                    <img src="resources\hot-chocolate.png">
+                                    <label id="type" for="bebida">chocolate</label>
+                                    <input id="3" type="checkbox" name="bebida" value="chocolate" onclick="selectOnlyThis(this.id), coffee(this.id)"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        </br>
+
+                        <label id="text" for="torra">Torra do café</label>
+                        <div class="torras">
+                            <div class="torra">
+                                <label id="type" for="bebida">leve</label>
+                                <input id="torra1" type="radio" name="bebida" value="light">
+                            </div>
+                            <div class="torra">
+                                <label id="type" for="bebida">médio</label>
+                                <input id="torra2" type="radio" name="bebida" value="medium">
+                            </div>
+                            <div class="torra">
+                                <label id="type" for="bebida">forte</label>
+                                <input id="torra3" type="radio" name="bebida" value="strong">
+                            </div>
+                        </div>
+
+                        </br>
+
+                        <label id="text" for="acomp">Acompanhamentos</label>
+                        <div class="acomps">
+                            <div class="acomp">
+                                <input type="checkbox" name="acomp" value="chantilly">
+                                <label id="type" for="bebida">Chantilly</label>
+                            </div>
+                            <div class="acomp">
+                                <input type="checkbox" name="acomp" value="choc">
+                                <label id="type" for="bebida">Raspas de chocolate</label>
+                            </div>
+                            <div class="acomp">
+                                <input type="checkbox" name="acomp" value="ovomaltine">
+                                <label id="type" for="bebida">Ovomaltine</label>
+                            </div>
+                        </div>
+
+                        </br>
+
+                        <input type="submit" name="fzrPedido" value="Fazer pedido">
+                    </form>
             </div>
-
-            </br>
-
-            <label id="text" for="torra">Torra do café</label>
-            <div class="torras">
-                <input type="radio" name="bebida" value="light">Leve
-                <input type="radio" name="bebida" value="medium">Médio
-                <input type="radio" name="bebida" value="strong">Forte
-            </div>
-
-            </br>
-
-            <label id="text" for="acomp">Acompanhamentos</label>
-            <div class="acomps">
-                <input type="checkbox" name="acomp" value="chantilly">Chantilly
-                <input type="checkbox" name="acomp" value="choc">Raspas de chocolate
-                <input type="checkbox" name="acomp" value="ovomaltine">Ovomaltine
-            </div>
-
-            </br>
-
-            <input id="text" type="submit" name="fzrPedido" value="Fazer pedido">
-        </form>
-        <script src="script.js"></script>
+            <script src="script.js"></script>
+        </main>
     </body>
 </html>

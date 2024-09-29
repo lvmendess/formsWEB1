@@ -1,10 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #A0C655;
+}
+
 .content{
+    background-color: white;
     min-width: 25em;
     max-width: 30em;
     min-height: 20em;
     max-height: 25em;
     border-right: solid 2.1em #A0C655;
-    padding: 1.5em 1em 1.5em 1.5em;
+    padding: 1em 1em 1em 1em;
 }
 
 h1{
@@ -25,7 +34,6 @@ label{
 }
 
 form{
-    /*padding-top: 1em;*/
     padding-left: 0.5em;
 }
 

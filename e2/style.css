@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
 .content{
     min-width: 20em;
     max-width: 25em;
@@ -53,6 +60,9 @@ label{
 
 #textfield[name="fieldComment"]{
     min-height: 5em;
+    max-height: 10em;
+    min-width: 25em;
+    max-width: 30em;
 }
 
 .bttn{
